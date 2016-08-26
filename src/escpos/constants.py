@@ -113,6 +113,14 @@ TXT_COLOR_BLACK = ESC + b'\x72\x00'  # Default Color
 TXT_COLOR_RED = ESC + b'\x72\x01'    # Alternative Color (Usually Red)
 
 
+# Spacing
+LINESPACING_RESET = ESC + b'2'
+LINESPACING_FUNCS = {
+  60: ESC + b'A',  # line_spacing/60 of an inch, 0 <= line_spacing <= 85
+  360: ESC + b'+', # line_spacing/360 of an inch, 0 <= line_spacing <= 255
+  180: ESC + b'3', # line_spacing/180 of an inch, 0 <= line_spacing <= 255
+}
+
 # Char code table
 CHARCODE_PC437  = ESC + b'\x74\x00'  # USA: Standard Europe
 CHARCODE_JIS    = ESC + b'\x74\x01'  # Japanese Katakana
