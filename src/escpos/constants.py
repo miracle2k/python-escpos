@@ -278,7 +278,7 @@ QR_ECLEVEL_L = 0
 QR_ECLEVEL_M = 1
 QR_ECLEVEL_Q = 2
 QR_ECLEVEL_H = 3
-    
+
 # QRcode models
 QR_MODEL_1 = 1
 QR_MODEL_2 = 2

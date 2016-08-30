@@ -1,19 +1,20 @@
 *********
 Changelog
 *********
-
-2016-08-?? - Version 2.?.? - "?"
-------------------------------------------------
+2016-08-26 - Version 2.2.0 - "Fate Amenable To Change"
+------------------------------------------------------
 
 changes
 ^^^^^^^
-- feature: the driver tries now to guess the appropriate codepage and sets it automatically
-- as an alternative you can force the codepage with the old API
+- fix improper API-use in qrcode()
+- change setup.py shebang to make it compatible with virtualenvs.
+- add constants for sheet mode and colors
+- support changing the linespacing
 
 contributors
 ^^^^^^^^^^^^
-- Patrick Kanzler (with code by Frédéric Van der Essen)
-
+- Michael Elsdörfer
+- Patrick Kanzler
 
 2016-08-10 - Version 2.1.3 - "Ethics Gradient"
 ----------------------------------------------
